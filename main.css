@@ -1,0 +1,46 @@
+*, *:before, *:after{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body{
+  padding: 1em;
+  margin: 0 auto;
+  margin-top: 1em;
+
+  width: 80%;
+
+  background-color: #4696e5;
+
+  color: white;
+
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  text-shadow: 0.1em 0.1em 0.08em #2d6a85;
+}
+
+img{
+  display: inline-block;
+  height: 11em;
+  width: auto;
+  border-radius: 100%;
+  vertical-align: middle;
+}
+
+.content{
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5em;
+}
+
+header{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+}
+
+p{
+  text-align: justify;
+  font-size: 1.2em;
+}
